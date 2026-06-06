@@ -1,0 +1,45 @@
+# ─── AI-Powered Client-Server System ─────────────────────────────────────────
+# Python 3.12+ dependencies
+
+# Async WebSocket networking
+websockets>=14.0
+
+# Anthropic Claude AI SDK
+anthropic>=0.42.0
+
+# Rich terminal UI
+rich>=13.9.0
+
+# Structured logging
+loguru>=0.7.3
+
+# JWT authentication
+python-jose[cryptography]>=3.3.0
+
+# Configuration management
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# Async file I/O
+aiofiles>=24.1.0
+
+# Environment variable loading (used by pydantic-settings)
+python-dotenv>=1.0.1
+
+# ─── REST API (FastAPI) ──────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sse-starlette>=2.1.0
+python-multipart>=0.0.12
+
+# ─── Optional ────────────────────────────────────────────────────────────────
+# PDF text extraction (only needed if serving .pdf files)
+# PyPDF2>=3.0.0
+
+# TLS certificate generation (only needed if TLS_ENABLED=true)
+# cryptography>=43.0.0
+
+# ─── Development / Testing ───────────────────────────────────────────────────
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.27.0

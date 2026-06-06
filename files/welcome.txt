@@ -1,0 +1,13 @@
+Welcome to the AI-Powered Client-Server System!
+=================================================
+
+This system supports:
+  • AI-powered chat (via Anthropic Claude)
+  • Intelligent file serving and streaming
+  • AI-generated file summaries with key topics and sentiment
+  • Natural-language file search
+  • JWT-based secure authentication
+
+Type /help in the client to see available commands.
+
+Enjoy exploring the system!

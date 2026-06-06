@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Java artifacts (legacy — project fully rebuilt in Python)
+*.class
+*.jar
+
+# Test cache
+.pytest_cache/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+chat_logs/
+server.log
+
+# Downloads & Uploads
+downloads/
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db

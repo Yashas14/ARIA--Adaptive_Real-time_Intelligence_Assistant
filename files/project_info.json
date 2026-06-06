@@ -1,0 +1,27 @@
+{
+  "project": "AI-Powered Client-Server",
+  "version": "2.0.0",
+  "description": "A modern async Python client-server system with Claude AI integration",
+  "features": [
+    "WebSocket-based communication",
+    "Anthropic Claude AI integration",
+    "Smart intent classification",
+    "AI file summarization",
+    "Natural-language file search",
+    "JWT authentication",
+    "TLS/SSL support",
+    "Rate limiting",
+    "Rich terminal UI"
+  ],
+  "tech_stack": {
+    "language": "Python 3.12+",
+    "networking": "asyncio + websockets",
+    "ai": "Anthropic Claude (claude-sonnet-4-20250514)",
+    "ui": "Rich",
+    "auth": "JWT (python-jose)",
+    "config": "pydantic-settings",
+    "logging": "loguru"
+  },
+  "author": "Yashas D",
+  "repository": "https://github.com/Yashas14/Client-Server"
+}
