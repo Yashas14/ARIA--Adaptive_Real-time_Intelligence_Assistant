@@ -730,6 +730,17 @@ python -m pytest tests/ --cov=. --cov-report=html
 
 ---
 
+## 📸 Snapshots
+
+
+<img width="1901" height="864" alt="image" src="https://github.com/user-attachments/assets/e81defb5-2418-404f-abf2-5d360c831678" />
+
+
+--
+<img width="1898" height="869" alt="image" src="https://github.com/user-attachments/assets/7ff5807f-228e-4759-a465-6ae2d9cb488d" />
+
+---
+
 ## Author
 
 **Yashas D**
