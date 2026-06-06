@@ -735,11 +735,6 @@ python -m pytest tests/ --cov=. --cov-report=html
 **Yashas D**
 - GitHub: [@Yashas14](https://github.com/Yashas14)
 
----
-
-## License
-
-This project is for educational and portfolio purposes.
 
 ---
 
