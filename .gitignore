@@ -7,10 +7,6 @@ dist/
 build/
 *.egg
 
-# Java artifacts (legacy — project fully rebuilt in Python)
-*.class
-*.jar
-
 # Test cache
 .pytest_cache/
 
