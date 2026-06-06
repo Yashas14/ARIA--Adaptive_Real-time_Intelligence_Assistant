@@ -741,19 +741,20 @@ python -m pytest tests/ --cov=. --cov-report=html
 
 ---
 
-## Author
+## 👤 Author
 
 **Yashas D**
-- GitHub: [@Yashas14](https://github.com/Yashas14)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashas%20D-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashasd2004/)
+[![GitHub](https://img.shields.io/badge/GitHub-Yashas14-181717?logo=github&logoColor=white)](https://github.com/Yashas14)
 
 ---
 
 <div align="center">
 
-*Built with Python · React · Claude AI*
-
+**Built with Python · React · Claude AI by [Yashas](https://github.com/Yashas14)**
 **ARIA — Adaptive Real-time Intelligence Assistant**
 *Your documents, understood — not just served*
 
 </div>
+
