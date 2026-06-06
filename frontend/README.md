@@ -1,6 +1,45 @@
-# React + TypeScript + Vite
+# ARIA Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React 19 + TypeScript + Vite frontend for the ARIA (Adaptive Real-time Intelligence Assistant) platform.
+
+## Stack
+
+- **React 19** — UI framework
+- **TypeScript** — static typing
+- **Vite 8** — build tool with instant HMR
+- **Tailwind CSS 4** — utility-first styling
+- **React Router 7** — client-side routing
+- **Axios** — HTTP client with JWT interceptors
+
+## Pages
+
+| Route | Page | Description |
+|-------|------|-------------|
+| `/login` | LoginPage | JWT authentication |
+| `/chat` | ChatPage | Real-time streaming AI chat |
+| `/files` | FilesPage | File browser, viewer, AI summarizer |
+| `/status` | StatusPage | System health dashboard |
+
+## Development
+
+```bash
+npm install
+npm run dev        # http://localhost:5173
+```
+
+The Vite dev server proxies `/api` → `http://localhost:8000` (FastAPI backend).
+
+## Build
+
+```bash
+npm run build      # outputs to dist/
+npm run preview    # preview the production build
+```
+
+## See Also
+
+Full setup, API reference, and architecture documentation are in the [root README](../README.md).
+
 
 Currently, two official plugins are available:
 
